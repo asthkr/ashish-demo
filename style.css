@@ -928,12 +928,12 @@ a.nav-link:hover {
     }
 
     .headlines {
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
     }
 
     .main-newsbox {
-        width: 80%;
+        width: 100%;
         height: 350px;
         padding-bottom: 25px;
         margin: 0 auto;
