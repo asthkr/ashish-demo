@@ -694,16 +694,19 @@ a.nav-link:hover {
 
 .img-card .box-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 0;
+    left: 0;
     padding: 15px;
+    transition: linear 500ms;
+    background: rgba(131, 156, 255, .3);
+
 }
 
+
 .resources-box:hover .box-text {
-    transition: linear 500ms;
     background: #839CFF;
     z-index: 100;
+
 }
 
 .box-text i {
@@ -712,6 +715,16 @@ a.nav-link:hover {
 }
 
 .box-text i:hover {
+    transform: scale(1.5, 1);
+    color: white;
+}
+
+.box-textsec i {
+    transition: 400ms;
+    font-size: 30px;
+}
+
+.box-textsec i:hover {
     transform: scale(1.5, 1);
     color: white;
 }
@@ -725,16 +738,16 @@ a.nav-link:hover {
 
 .box-textsec {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 0;
+    left: 0;
     padding: 15px;
-       color: white;
+    transition: linear 500ms;
+    background: rgba(131, 156, 255, .3);
 }
 
 .resources-box:hover .box-textsec {
     background: #839CFF;
-      z-index: 100;
+    z-index: 100;
 }
 
 .box-textsec i {
@@ -771,6 +784,7 @@ a.nav-link:hover {
 .ftr-menuone p {
     font-weight: 700;
 }
+
 
 .ftr-menuone ul {
     list-style: none;
@@ -928,8 +942,8 @@ a.nav-link:hover {
     }
 
     .main-newsbox {
-        width: 100%;
-        height: 320px;
+        width: 80%;
+        height: 350px;
         padding-bottom: 25px;
         margin: 0 auto;
     }
