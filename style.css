@@ -259,7 +259,7 @@ a.nav-link:hover {
     bottom: 0;
     transform: translate(-50%, 0);
     z-index: 100;
-    padding: 20px 100px;
+    padding: 1.5em 3em;
     border-radius: 3px;
     background-color: #f5fffa;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
@@ -928,7 +928,7 @@ a.nav-link:hover {
     }
 
     .headlines {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
 
