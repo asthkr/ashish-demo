@@ -698,14 +698,11 @@ a.nav-link:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
-   
-
 }
 
 .resources-box:hover .box-text {
     transition: linear 500ms;
     background: #839CFF;
-   
     z-index: 100;
 }
 
@@ -732,14 +729,12 @@ a.nav-link:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
-    opacity: 0;
-    color: white;
+       color: white;
 }
 
 .resources-box:hover .box-textsec {
     background: #839CFF;
-    opacity: 1;
-    z-index: 100;
+      z-index: 100;
 }
 
 .box-textsec i {
